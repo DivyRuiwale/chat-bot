@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI FAQ Bot - Business Assistant</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ======== Landing Page (Animated) ======== -->
+    <div id="landing-page" class="landing-page">
+        <div class="landing-content">
+            <div class="logo-animation">
+                <svg viewBox="0 0 100 100"><path d="M 50,50 m 0,-48 a 48,48 0 1 1 0,96 a 48,48 0 1 1 0,-96" stroke-width="4" stroke-dasharray="301.59" stroke-dashoffset="301.59"></path></svg>
+                <span>AI</span>
+            </div>
+            <h1 id="landing-title"></h1>
+            <p>Your intelligent assistant, trained on your data, ready to help.</p>
+            <button id="get-started-btn">Get Started</button>
+        </div>
+    </div>
+
+    <!-- ======== Main Application (Initially Hidden) ======== -->
+    <div id="main-app" class="app-container hidden">
+        <!-- Left Sidebar: Controls & Information -->
+        <aside class="sidebar">
+            <header class="sidebar-header">
+                <h3>Dashboard</h3>
+                <label class="theme-switch" title="Toggle Dark/Light Mode">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+            </header>
+
+            <section class="sidebar-section">
+                <h4>Chat Sessions</h4>
+                <ul id="chat-sessions" class="chat-sessions">
+                    <!-- Chat sessions will be listed here -->
+                </ul>
+                <button id="new-chat-btn" class="sidebar-btn">New Chat</button>
+            </section>
+            
+            <section id="upload-section" class="sidebar-section">
+                <h4>Knowledge Base</h4>
+                <div id="upload-zone" class="upload-zone">
+                    <input type="file" id="file-input" hidden accept=".json,.csv">
+                    <div class="upload-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0l-3.75 3.75M12 9.75l3.75 3.75M3 13.5V18a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 18v-4.5m-18 0l1.5-1.5m15 0l-1.5-1.5"></path></svg>
+                    </div>
+                    <span>Upload New FAQs</span>
+                </div>
+                 <div id="upload-progress-container" class="upload-progress-container">
+                    <div id="upload-progress-bar" class="upload-progress-bar"></div>
+                </div>
+            </section>
+
+             <section class="sidebar-section">
+                <h4>Quick Prompts</h4>
+                <div id="example-prompts" class="example-prompts">
+                    <button>What is the return policy?</button>
+                    <button>How do I contact support?</button>
+                </div>
+            </section>
+        </aside>
+
+        <!-- Right Panel: Chat Interface -->
+        <main class="chat-area">
+            <header class="chat-header">
+                <div class="chat-title">
+                    <h4>AI Assistant</h4>
+                    <span class="status-indicator">Online</span>
+                </div>
+                <div class="chat-controls">
+                    <!-- Export Button -->
+                    <button id="export-chat-btn" class="control-btn" title="Export Chat">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4 19h16v-7h2v8c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h8v2H4v15zM14 8V4l8 8-8 8v-4H9V8h5z"/>
+                        </svg>
+                    </button>
+
+                    <!-- ✅ New Clear Chat Button -->
+                    <button id="clear-chat-btn" class="control-btn" title="Clear Chat">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </header>
+            <div id="chat-history" class="chat-history">
+                <!-- Chat messages will appear here -->
+            </div>
+            <form id="chat-form" class="chat-input-form">
+                <textarea id="user-input" placeholder="Ask a question..." required></textarea>
+                <button type="submit" id="send-btn" title="Send">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"></path></svg>
+                </button>
+            </form>
+        </main>
+        
+        <div id="notification" class="notification"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

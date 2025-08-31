@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the primary function of your product?",
+    "answer": "Our product is a comprehensive project management tool designed to help teams organize tasks, track progress, and collaborate efficiently from a single platform."
+  },
+  {
+    "question": "How do I create a new account?",
+    "answer": "You can create a new account by clicking the 'Sign Up' button on our homepage. You'll need to provide your email address and create a password."
+  },
+  {
+    "question": "Is there a free trial available?",
+    "answer": "Yes, we offer a 14-day free trial for all our plans. No credit card is required to get started. You can explore all features during the trial period."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, and direct bank transfers for annual subscriptions."
+  },
+  {
+    "question": "How can I reset my password?",
+    "answer": "To reset your password, click the 'Forgot Password?' link on the login page. We will send you an email with instructions to create a new password."
+  },
+  {
+    "question": "Can I upgrade or downgrade my plan at any time?",
+    "answer": "Yes, you can change your subscription plan at any time from your account's 'Billing' section. The changes will be prorated."
+  },
+  {
+    "question": "What is your refund policy?",
+    "answer": "We offer a 30-day money-back guarantee. If you are not satisfied, you can request a full refund within 30 days of your initial purchase."
+  },
+  {
+    "question": "How do I cancel my subscription?",
+    "answer": "You can cancel your subscription from the 'Billing' settings in your account. Your access will continue until the end of the current billing cycle."
+  },
+  {
+    "question": "Is my data secure with your service?",
+    "answer": "Absolutely. We use industry-standard 256-bit AES encryption for all data, both in transit and at rest. Our servers are hosted in secure, SOC 2 compliant data centers."
+  },
+  {
+    "question": "Do you offer customer support?",
+    "answer": "Yes, we provide 24/7 customer support via live chat and email for all paying customers. Free plan users have access to our community forums and knowledge base."
+  },
+  {
+    "question": "How can I contact customer support?",
+    "answer": "You can reach our support team by clicking the 'Help' button inside the app or by emailing us directly at support@example.com."
+  },
+  {
+    "question": "Does your product support multiple users?",
+    "answer": "Yes, our Team and Business plans are designed for collaboration and support multiple users. You can invite team members from your account dashboard."
+  },
+  {
+    "question": "How do I add a team member?",
+    "answer": "As an administrator, you can invite new members by going to 'Settings', then 'Team Management', and clicking 'Invite Member'."
+  },
+  {
+    "question": "Is there a mobile app available?",
+    "answer": "Yes, we have native mobile apps for both iOS and Android devices. You can download them from the Apple App Store and Google Play Store."
+  },
+  {
+    "question": "Can I use your app on a tablet?",
+    "answer": "Yes, our application is fully responsive and works seamlessly on tablets and other mobile devices through our native apps or web browser."
+  },
+  {
+    "question": "What browsers do you support?",
+    "answer": "We support the latest versions of Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari."
+  },
+  {
+    "question": "How do I import my existing data?",
+    "answer": "You can import data from a CSV file. Go to 'Settings' > 'Data Import' and follow the on-screen instructions to map your data fields."
+  },
+  {
+    "question": "Can I export my data?",
+    "answer": "Yes, you can export your project data at any time. Go to the specific project you want to export and select 'Export as CSV' or 'Export as PDF' from the options menu."
+  },
+  {
+    "question": "Do you offer any discounts?",
+    "answer": "We offer a 20% discount on all annual subscription plans. We also provide special discounts for non-profit organizations and educational institutions."
+  },
+  {
+    "question": "How can I apply for a non-profit discount?",
+    "answer": "Please contact our sales team at sales@example.com with your organization's documentation, and we will guide you through the process."
+  },
+  {
+    "question": "What integrations do you support?",
+    "answer": "We support integrations with popular tools like Slack, Google Drive, Dropbox, Zapier, and GitHub. You can manage integrations from the 'Settings' menu."
+  },
+  {
+    "question": "How do I set up an integration?",
+    "answer": "To set up an integration, navigate to 'Settings' > 'Integrations', find the app you want to connect, and click 'Connect'. You will be prompted to authorize the connection."
+  },
+  {
+    "question": "Where are your servers located?",
+    "answer": "Our primary servers are located in the US-East (N. Virginia) region, with backups in the EU (Ireland) region for data redundancy."
+  },
+  {
+    "question": "What is your uptime guarantee?",
+    "answer": "We guarantee a 99.9% uptime for our services. You can check our real-time system status on our status page at status.example.com."
+  },
+  {
+    "question": "How do I update my billing information?",
+    "answer": "You can update your credit card and other billing details from the 'Billing' section in your account settings."
+  },
+  {
+    "question": "Can I get an invoice for my payment?",
+    "answer": "Yes, all your past invoices are available for download in the 'Billing History' section of your account settings."
+  },
+  {
+    "question": "What happens if my payment fails?",
+    "answer": "If a payment fails, we will notify you via email and attempt to process the payment again a few times over the next week. Your account will remain active during this grace period."
+  },
+  {
+    "question": "Do you have an API?",
+    "answer": "Yes, we have a comprehensive REST API available for developers on our Business plan. You can find the documentation at developers.example.com."
+  },
+  {
+    "question": "How do I get an API key?",
+    "answer": "API keys can be generated from your account settings under the 'Developer' tab. Please note this is only available on the Business plan."
+  },
+  {
+    "question": "What are user roles and permissions?",
+    "answer": "We have different user roles like Admin, Member, and Guest. Admins have full access, Members can create and manage tasks, and Guests have view-only access."
+  },
+  {
+    "question": "How do I change a user's role?",
+    "answer": "Admins can change user roles from the 'Team Management' section in settings. Click on the user and select a new role from the dropdown menu."
+  },
+  {
+    "question": "What is the file storage limit?",
+    "answer": "The storage limit depends on your plan. The Free plan includes 1GB, the Pro plan has 10GB, and the Business plan offers 100GB of storage."
+  },
+  {
+    "question": "Can I buy more storage?",
+    "answer": "Yes, additional storage can be purchased as an add-on. Please contact our support team for pricing and details."
+  },
+  {
+    "question": "How do I search for a task?",
+    "answer": "Use the universal search bar at the top of the application to search for tasks, projects, or comments by keyword."
+  },
+  {
+    "question": "What are task dependencies?",
+    "answer": "Task dependencies allow you to link tasks together, ensuring one task cannot be started or completed until another one is finished. This is available on the Pro and Business plans."
+  },
+  {
+    "question": "How do I create a recurring task?",
+    "answer": "When creating or editing a task, you can set it to recur daily, weekly, monthly, or on a custom schedule from the task's date settings."
+  },
+  {
+    "question": "Do you have a public roadmap?",
+    "answer": "Yes, we believe in transparency. You can view our public roadmap and suggest new features at roadmap.example.com."
+  },
+  {
+    "question": "How do I report a bug?",
+    "answer": "If you encounter a bug, please report it to our support team via the in-app help widget. Include as much detail as possible, such as screenshots and steps to reproduce the issue."
+  },
+  {
+    "question": "Can I customize the look and feel of the app?",
+    "answer": "You can switch between light and dark mode. On the Business plan, you can also add your company's logo to the dashboard."
+  },
+  {
+    "question": "What languages is the app available in?",
+    "answer": "Currently, the application is available in English, Spanish, French, and German. You can change the language in your profile settings."
+  },
+  {
+    "question": "How do I set up notifications?",
+    "answer": "You can customize your email and in-app notifications from the 'Notifications' tab in your account settings. You can choose which activities you want to be notified about."
+  },
+  {
+    "question": "Is two-factor authentication (2FA) supported?",
+    "answer": "Yes, we strongly recommend enabling two-factor authentication for added security. You can set it up in the 'Security' section of your account settings."
+  },
+  {
+    "question": "How do I view my activity log?",
+    "answer": "Your account activity log, which shows recent logins and important actions, can be found under 'Settings' > 'Security'."
+  },
+  {
+    "question": "What is the difference between the Pro and Business plans?",
+    "answer": "The Business plan includes everything in the Pro plan, plus advanced features like single sign-on (SSO), a dedicated account manager, and API access."
+  },
+  {
+    "question": "How do I create a project template?",
+    "answer": "You can save any existing project as a template. Go to the project settings and select 'Save as Template'. This is useful for recurring workflows."
+  },
+  {
+    "question": "Can I assign a task to multiple people?",
+    "answer": "Yes, you can assign a single task to multiple team members. Each assignee will be notified and can contribute to the task."
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "You can delete your account from the 'Account Settings' page. Please be aware that this action is irreversible and will permanently delete all your data."
+  },
+  {
+    "question": "Do you offer training or onboarding?",
+    "answer": "Yes, we offer live onboarding webinars for new users. Customers on our Business plan also receive a dedicated training session for their team."
+  },
+  {
+    "question": "How can I provide feedback?",
+    "answer": "We love hearing from our users! You can submit feedback or feature requests through the 'Help' widget in the app or on our public roadmap page."
+  },
+  {
+    "question": "What is your data retention policy?",
+    "answer": "We retain your data as long as your account is active. If you delete your account, your data is permanently removed from our servers after a 30-day grace period."
+  },
+  {
+    "question": "Are there keyboard shortcuts?",
+    "answer": "Yes, we have a wide range of keyboard shortcuts to help you navigate and work faster. You can view the full list by pressing '?' inside the app."
+  },
+  {
+    "question": "How do I find my referral code?",
+    "answer": "You can find your unique referral code in the 'Refer a Friend' section of your account settings. Share it to earn rewards!"
+  },
+  {
+    "question": "What is single sign-on (SSO)?",
+    "answer": "Single sign-on allows your team to log in using your company's identity provider (like Okta or Google Workspace). This feature is available on the Business plan."
+  },
+  {
+    "question": "Can I attach files to tasks?",
+    "answer": "Yes, you can attach files from your computer, Google Drive, or Dropbox directly to any task or comment."
+  },
+  {
+    "question": "Where is your company located?",
+    "answer": "Our main office is in Indore, India, but we are a remote-first company with team members located all around the world."
+  }
+]
